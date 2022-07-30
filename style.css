@@ -1,0 +1,195 @@
+/* CSS Document */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px;
+  font-size: 16px;
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  background-color: #b2b1b0;
+}
+
+.wrapper {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* header */
+.header {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ /* transform: translateY(1px);*/
+  overflow: hidden;
+ /* background-clip: content-box;*/
+}
+.header_1 {
+  background-image: url(../images/bgimg_1.png);
+}
+.header_2 {
+  background-image: url("../images/bgimg_2.png");
+
+}
+
+.head_logo {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.head_logo img {
+  display: block;
+  position: relative;
+  width: 50%;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.head_logo head_logo2{
+  width: 30%;
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+  image-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.wave_up {
+  display: block;
+  position: relative;
+  width: 100%;
+  bottom: -5px;
+}
+
+/* content */
+.content {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg_white{
+	 background-color: #fff;
+}
+
+.bg_dark{
+	background-color: #0E134A;
+}
+
+.main_wrap {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.mw_center {
+  flex-basis: 60%;
+}
+.mw_center img {
+  width: 100%;
+  border-radius: 24px;
+margin-top:50px;
+}
+.mw_center p {
+  margin: 20px 20px 50px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.text_black{
+	  color: #333;
+}
+
+.text_white{
+	  color: #FFFFFF;
+}
+
+.mw_side {
+  flex-basis: 20%;
+  text-align: right;
+}
+.mw_side img {
+  width: 40%;
+	margin-top:30px;
+}
+
+/* staff */
+.staff {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-image: url("../images/wave_images1.JPG");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+/*  transform: translateY(1px);*/
+}
+
+.wave_dw {
+  display: block;
+  position: relative;
+  width: 100%;
+  top: -2px;
+}
+
+.li_staff {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.li_staff ul {
+  display: block;
+  position: relative;
+  margin: 30px auto 60px;
+}
+.li_staff li {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.li_staff li span {
+  margin: 10px 20px 0px;
+  color: #fff;
+  text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2);
+}
+.li_staff .li_status {
+  width: 120px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+font-family: wigwag-bold,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.li_staff .li_name {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 35px;
+font-family: wigwag-bold,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
