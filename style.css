@@ -1,0 +1,272 @@
+/* CSS Document */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px;
+  font-size: 16px;
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  background-color: #b2b1b0;
+}
+
+.wrapper {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* header */
+.header {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.header_1 {
+  background-image: url(../images/bgimg_1.png);
+}
+.header_2 {
+  background-image: url("../images/bgimg_2.png");
+}
+
+.head_logo {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.head_logo img {
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.head_logo img.logo1 {
+  width: 50%;
+}
+
+.head_logo img.logo2{
+  width: 30%;
+padding-top:30px;
+  shadow: 0px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.wave_up {
+  display: block;
+  position: relative;
+  width: 100%;
+  bottom: -7px;
+}
+
+/* content */
+.content {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg_white{
+	 background-color: #fff;
+}
+
+.bg_dark{
+	background-color: #0E134A;
+}
+
+.main_wrap {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.mw_center {
+  flex-basis: 60%;
+	margin-top:50px;
+}
+
+.mw_center .mw_center_youtube {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.mw_center .mw_center_youtube iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+border-radius: 24px;
+}
+
+
+.game_video{
+	position:relative;
+	width:100%;
+	padding-top: 56.25%;
+	overflow: hidden;
+}
+
+video{
+	display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+	border-radius: 24px;
+}
+
+.mw_center img {
+  width: 100%;
+  border-radius: 24px;
+}
+.mw_center p {
+  margin: 20px 20px 50px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.text_black{
+	  color: #333;
+}
+
+.text_white{
+	  color: #FFFFFF;
+}
+
+.mw_side {
+  flex-basis: 20%;
+  text-align: right;
+}
+.mw_side img {
+  width: 40%;
+	margin-top:30px;
+}
+
+/* staff */
+.staff {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+　overflow: hidden;
+}
+.staff1{
+ background-image:url("../images/musicvideo_nowave.png");
+}
+.staff2{
+ background-image:url("../images/game_nowave.png");
+}
+.wave_dw {
+  display: block;
+  position: relative;
+  width: 100%;
+  top: -2px;
+}
+
+.li_staff {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.li_staff ul {
+  display: block;
+  position: relative;
+  margin: 30px auto 60px;
+}
+.li_staff li {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.li_staff li span {
+  margin: 10px 20px 0px;
+  color: #fff;
+  text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2);
+}
+.li_staff .li_status {
+  width: 120px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+font-family: wigwag-bold,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.li_staff .li_name {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 35px;
+font-family: wigwag-bold,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.game_button {
+  display: block;
+  position: relative;
+  width: 200px;
+  margin:20px auto;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.game_button img {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+._btn_div {
+	width: 100%;
+	text-align: center;
+	margin:50px auto 0px;
+	padding-bottom: 50px;
+}
+._btn {
+    display: inline-block;
+    position: relative;
+    padding: 20px 30px;
+    border: 3px solid #3C6721;
+    color: #47FF1A;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+	background-color: rgba(255,255,255,1.00);
+    border-radius: 250px;
+	max-width:80%;
+    text-align: center;
+    -webkit-box-shadow: 1px 5px 3px rgba(0,0,0,0.25);
+    box-shadow: 1px 5px 3px rgba(0,0,0,0.25);
+}
+._btn:hover {
+    color: #FF850E;
+    border: 3px solid #9EFFB5;
+}
